@@ -14,8 +14,12 @@ public class HelloWorldController : Controller
     // 
     // GET: /HelloWorld/Welcome/ 
     // [Route("welcome/{name?}/{numTimes?}")]
-    public string Welcome(string name = "Ekin", int numTimes = 1)
+    public IActionResult Welcome(string name = "Ekin", int numTimes = 1)
     {
-        return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");
+
+        //passing data from controller to view
+        ViewData["Message"] = "Hello " + name;
+        ViewData["NumTimes"] = numTimes;
+        return View();
     }
 }
