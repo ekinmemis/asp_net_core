@@ -7,14 +7,25 @@ namespace DependencyInjectionMVC.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly IOperationTransient _transientOperation;
+    private readonly IOperationSingleton _singletonOperation;
+    private readonly IOperationScoped _scopedOperation;
+    public HomeController(ILogger<HomeController> logger,
+                    IOperationTransient transientOperation,
+                    IOperationScoped scopedOperation,
+                    IOperationSingleton singletonOperation)
     {
         _logger = logger;
+        _transientOperation = transientOperation;
+        _scopedOperation = scopedOperation;
+        _singletonOperation = singletonOperation;
     }
 
     public IActionResult Index()
     {
+        _logger.LogInformation("Transient: " + _transientOperation.OperationId);
+        _logger.LogInformation("Scoped: " + _scopedOperation.OperationId);
+        _logger.LogInformation("Singleton: " + _singletonOperation.OperationId);
         return View();
     }
 
