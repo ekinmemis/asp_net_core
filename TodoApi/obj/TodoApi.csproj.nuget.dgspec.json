@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\TodoApi\\TodoApi.csproj": {}
+    "D:\\asp_net_core\\todoapi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\TodoApi\\TodoApi.csproj": {
+    "D:\\asp_net_core\\todoapi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "D:\\asp_net_core\\todoapi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\TodoApi\\TodoApi.csproj",
+        "projectPath": "D:\\asp_net_core\\todoapi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\ekinm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\TodoApi\\obj\\",
+        "outputPath": "D:\\asp_net_core\\todoapi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ekinm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ekinm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
