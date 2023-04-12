@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "rate_limiting_middleware/1.0.0": {
+        "runtime": {
+          "rate_limiting_middleware.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rate_limiting_middleware/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YKSBE7c/LZiXVMmF5cUv803v0fNug17u7JWRq8EnKUA=",
+  "Source": "rate_limiting_middleware",
+  "BasePath": "_content/rate_limiting_middleware",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
