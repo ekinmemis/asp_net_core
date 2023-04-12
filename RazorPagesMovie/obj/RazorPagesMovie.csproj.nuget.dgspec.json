@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
+    "D:\\asp_net_core\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\RazorPagesMovie\\RazorPagesMovie.csproj": {
+    "D:\\asp_net_core\\RazorPagesMovie\\RazorPagesMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectUniqueName": "D:\\asp_net_core\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "projectName": "RazorPagesMovie",
-        "projectPath": "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectPath": "D:\\asp_net_core\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "packagesPath": "C:\\Users\\ekinm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ekinm\\OneDrive\\Desktop\\asp_net_core\\RazorPagesMovie\\obj\\",
+        "outputPath": "D:\\asp_net_core\\RazorPagesMovie\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ekinm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ekinm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
