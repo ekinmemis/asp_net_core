@@ -1,55 +1,16 @@
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
-
 
 app.Use(async (context, next) =>
 {
+    // Do work that can write to the Response.
     await next.Invoke();
+    // Do logging or other work that doesn't write to the Response.
 });
 
 app.Run(async context =>
 {
-    await context.Response.WriteAsync("Hello world!");
+    await context.Response.WriteAsync("Hello from 2nd delegate.");
 });
-
-
-
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-    app.UseDatabaseErrorPage();
-}
-else
-{
-    app.UseExceptionHandler("/Error");
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-app.UseCookiePolicy();
-
-app.UseRouting();
-app.UseRequestLocalization();
-app.UseCors();
-
-app.UseAuthentication();
-app.UseAuthorization();
-app.UseSession();
-app.UseResponseCompression();
-app.UseResponseCaching();
-
-app.MapRazorPages();
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
