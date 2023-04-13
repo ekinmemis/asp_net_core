@@ -1,8 +1,11 @@
-import React from 'react'
-import { Component } from 'react'
-import { Navigate } from 'react-router-dom'
-import { ApplicationPaths, QueryParameterNames } from './ApiAuthorizationConstants'
-import authService from './AuthorizeService'
+import React from "react";
+import { Component } from "react";
+import { Navigate } from "react-router-dom";
+import {
+  ApplicationPaths,
+  QueryParameterNames,
+} from "./ApiAuthorizationConstants";
+import authService from "./AuthorizeService";
 
 export default class AuthorizeRoute extends Component {
   constructor(props) {
@@ -10,12 +13,14 @@ export default class AuthorizeRoute extends Component {
 
     this.state = {
       ready: false,
-      authenticated: false
+      authenticated: false,
     };
   }
 
   componentDidMount() {
-    this._subscription = authService.subscribe(() => this.authenticationChanged());
+    this._subscription = authService.subscribe(() =>
+      this.authenticationChanged()
+    );
     this.populateAuthenticationState();
   }
 
