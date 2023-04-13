@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IdentityWebApp1.props" />
+</Project>
