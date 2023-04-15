@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "vViNf2jxiLKz89D2EQNz9TYB21kCY6HTUc7EiSsJcEb6gAfsjx3T4TiW4Q6Q637Sp4BxLO/gGbYtj5GKz+wlpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ekinm\\OneDrive\\Desktop\\RabbitMQExample\\Publisher\\Publisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ekinm\\.nuget\\packages\\rabbitmq.client\\5.1.2\\rabbitmq.client.5.1.2.nupkg.sha512",
+    "C:\\Users\\ekinm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ekinm\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ekinm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ekinm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

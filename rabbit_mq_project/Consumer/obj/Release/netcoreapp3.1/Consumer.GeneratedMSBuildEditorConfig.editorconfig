@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Consumer
+build_property.ProjectDir = D:\asp_net_core\rabbit_mq_project\Consumer\
